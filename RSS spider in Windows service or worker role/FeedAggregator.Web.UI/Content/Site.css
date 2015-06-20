@@ -1,0 +1,82 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.summary {
+    font-size: 1.2em;
+}
+
+.homeheader {
+    /*background-image: url('../images/HeaderLowRes.jpg');*/
+    background-image: url('../images/Skyscraper.jpg');
+    /*background-image: url('../images/Quant2.jpg');*/
+    /*background-image: url('../images/Quant1.jpg');*/
+    color: white;
+    /*text-align: center;*/
+}
+
+.headerLinks a:link
+{
+    color: white;
+    text-decoration: none; 
+}
+.headerLinks a:visited
+{
+    color: white;
+    text-decoration: none; 
+}
+.headerLinks a:hover
+{
+    color: white;
+    text-decoration: none; 
+}
+.headerLinks a:active
+{
+    color: white;
+    text-decoration: none; 
+}
+
+.homeheader .container {
+/*    background-color: black;
+    opacity: 0.6; */
+}
+
+.myh3 {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+
+.lead2 {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+.source {
+    font-size: 14px;
+    color: #999999;    
+}
